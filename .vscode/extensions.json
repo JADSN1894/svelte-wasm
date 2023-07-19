@@ -1,0 +1,17 @@
+{
+	"recommendations": [
+		"vivaxy.vscode-conventional-commits",
+		"usernamehw.errorlens",
+		"aaron-bond.better-comments",
+		"rust-lang.rust-analyzer",
+		"serayuzgur.crates",
+		"tamasfe.even-better-toml",
+		"svelte.svelte-vscode",
+		"bradlc.vscode-tailwindcss",
+		"fivethree.vscode-svelte-snippets",
+		"yoavbls.pretty-ts-errors",
+		"jnoortheen.nix-ide",
+		"skellock.just",
+		"esbenp.prettier-vscode"
+	]
+}

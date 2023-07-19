@@ -1,0 +1,28 @@
+[package]
+name = "encoder"
+version.workspace = true
+publish.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+bip0039 = { worspace = true }
+console_error_panic_hook = { workspace = true, optional = true }
+cfg-if = { workspace = true }
+getrandom = { worspace = true, features = ["js"] }
+md-5 = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+serde-wasm-bindgen = { workspace = true }
+sha-1 = { workspace = true }
+sha2 = { workspace = true }
+tsify = { workspace = true }
+wasm-bindgen = { workspace = true }
+wee_alloc = { workspace = true, optional = true }
+
+[features]
+default = ["console_error_panic_hook", "wee_alloc"]
