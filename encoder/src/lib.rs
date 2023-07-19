@@ -1,4 +1,4 @@
-use serde::{Deserialize, Serialize};
+use serde::Deserialize;
 use tsify::Tsify;
 use wasm_bindgen::prelude::wasm_bindgen;
 
@@ -149,7 +149,7 @@ pub fn dispatch(val: &str) -> String {
         },
         Err(error) => {
             log!("[ERROR] {:?}", error);
-            "Posible values of encode are: Md5, SHA1 Sha256, Sha512".into()
+            "Posible values of encode are: [Md5 | SHA1 | Sha256 | Sha512]".into()
         }
     }
 
